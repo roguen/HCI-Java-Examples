@@ -1,0 +1,13 @@
+{
+    "bundleName": "com.hds.tie.hci",
+    "description": "Example Data Connection",
+    "displayName": "Example Data Connector",
+    "plugins": [
+        {
+            "pluginImplementation": "com.hds.tie.hci.HCIURLCrawlerConnector",
+            "pluginName": "com.hds.tie.hci.HCIURLCrawlerConnector",
+            "pluginType": "com.hds.ensemble.sdk.connector.ConnectorPlugin"
+        }
+    ],
+    "version": "1.0.0"
+}
