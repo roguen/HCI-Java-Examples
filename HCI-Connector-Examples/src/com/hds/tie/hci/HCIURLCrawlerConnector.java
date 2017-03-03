@@ -284,7 +284,7 @@ public class HCIURLCrawlerConnector implements ConnectorPlugin, DocumentActionPr
 							}
 						}
 					}
-				//not a directory, good, let's check it and download our file
+				//not a directory, good, let's make this URL into a document
 				} else {
 					myDocument = myPluginSession.getDocument(uri);
 					//add this document to our list of documents to return
@@ -331,7 +331,6 @@ public class HCIURLCrawlerConnector implements ConnectorPlugin, DocumentActionPr
 		} catch (Exception e) {
 			throw new PluginOperationFailedException("An error was thrown while attempting to evaluate the URL: " + e);
 		} 
-		//return documentList;
 	}
 
 	@Override
