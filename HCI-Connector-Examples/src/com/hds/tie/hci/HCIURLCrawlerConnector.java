@@ -59,7 +59,7 @@ import com.hds.ensemble.sdk.plugin.PluginSession;
 public class HCIURLCrawlerConnector implements ConnectorPlugin, DocumentActionProcessor {
 	private static final Logger log = LogManager.getLogger(HCIURLCrawlerConnector.class);
 	
-	private static final String PLUGIN_NAME = "com.hds.tie.hornet.hci.HCIURLCrawlerConnector";
+	private static final String PLUGIN_NAME = "com.hds.tie.hci.HCIURLCrawlerConnector";
 	private static final String DISPLAY_NAME = "URL Crawler";
 	private static final String DESCRIPTION = "URL Crawler Data Connection";
 
